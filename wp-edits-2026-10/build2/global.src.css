@@ -1,0 +1,16 @@
+/* === 2026-10-09 GLOBAL (Fase 1) === */
+/* 1.1 menu: 19px, normale, no wrap */
+.iah-header .elementor-nav-menu--main .elementor-item{font-weight:400!important;text-transform:none!important;white-space:nowrap!important;}
+@media(min-width:1025px) and (max-width:1500px){.iah-header .elementor-nav-menu--main .elementor-item{font-size:clamp(14.5px,1.27vw,19px)!important;padding-left:7px!important;padding-right:7px!important;}}
+@media(max-width:1699px){.iah-header .iah-cta{display:none!important;}}
+/* 1.1 paragrafi 23px (solo testo corrente, non card/box/bottoni) */
+.elementor-element-7a1439b,.elementor-element-5575c202,.elementor-element-2ab48b93,.elementor-element-7132e64e,.elementor-element-926b61e7,.elementor-element-4601757e,.elementor-element-92bdf848,.elementor-element-a7ad8c90,.elementor-element-7e9d8b24,.elementor-element-842bdcf3,.iah-p{font-size:23px!important;line-height:1.65!important;text-align:left!important;}
+@media(max-width:767px){.elementor-element-7a1439b,.elementor-element-5575c202,.elementor-element-2ab48b93,.elementor-element-7132e64e,.elementor-element-926b61e7,.elementor-element-4601757e,.elementor-element-92bdf848,.elementor-element-a7ad8c90,.elementor-element-7e9d8b24,.elementor-element-842bdcf3,.iah-p{font-size:19px!important;}}
+/* 1.2 CTA uniformi: azzurro #4AB7D5, hover piu' trasparente */
+.elementor-widget-button .elementor-button,.elementor-field-type-submit .elementor-button,.elementor-button[type=submit],.brand-hero .btn-cta{background-color:#4AB7D5!important;color:#09171F!important;border:0!important;transition:background-color .3s ease,transform .3s ease,box-shadow .3s ease!important;}
+.elementor-widget-button .elementor-button:hover,.elementor-widget-button .elementor-button:focus,.elementor-field-type-submit .elementor-button:hover,.elementor-button[type=submit]:hover,.brand-hero .btn-cta:hover{background-color:rgba(74,183,213,.78)!important;color:#09171F!important;}
+/* 1.5 niente sfondi azzurrini: solo blu scuro e bianco */
+#sec-news-gruppo,#sec-metodo-fasi,#sec-posizioni{background-color:#FFFFFF!important;}
+#sec-ilgruppo-1{background-color:#09171F!important;}
+#sec-ilgruppo-1 .elementor-heading-title{color:#FFFFFF!important;}
+#sec-ilgruppo-1 .iah-tl-lbl .elementor-widget-text-editor{color:rgba(238,246,250,.85)!important;}

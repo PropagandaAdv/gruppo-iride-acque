@@ -1,0 +1,27 @@
+.iah-grid2>.e-con-inner{display:flex!important;flex-direction:row!important;flex-wrap:wrap!important;gap:24px!important;}
+.iah-grid2>.e-con-inner>.iah-hcard{flex:0 0 calc(50% - 12px)!important;max-width:calc(50% - 12px)!important;}
+@media(max-width:767px){.iah-grid2>.e-con-inner>.iah-hcard{flex:0 0 100%!important;max-width:100%!important;}}
+.iah-hcard.iah-pcard{position:relative;overflow:hidden;background:#FFFFFF;border:1px solid rgba(9,23,31,.08);box-shadow:0 14px 40px -24px rgba(9,23,31,.35);padding:34px 30px 32px!important;gap:10px!important;}
+.iah-hcard.iah-pcard::before{content:"";position:absolute;left:0;top:0;height:4px;width:100%;background:#4AB7D5;transform:scaleX(0);transform-origin:left;transition:transform .45s ease;}
+.iah-hcard.iah-pcard:hover{transform:translateY(-8px);border-color:rgba(74,183,213,.55);box-shadow:0 30px 56px -26px rgba(9,23,31,.5);}
+.iah-hcard.iah-pcard:hover::before{transform:scaleX(1);}
+.iah-pcard .iah-pnum,.iah-pcard .iah-pnum p{color:#4AB7D5!important;font:800 14px/1 Montserrat,sans-serif!important;letter-spacing:.14em!important;margin:0!important;}
+.iah-hcard.iah-pcard .elementor-heading-title{color:#09171F!important;font:800 21px/1.28 Montserrat,sans-serif!important;}
+.iah-hcard.iah-pcard .iah-card-text,.iah-hcard.iah-pcard .iah-card-text p{color:#3D5A6C!important;font:400 16px/1.65 Montserrat,sans-serif!important;margin:0 0 10px!important;}
+.iah-hcard.iah-pcard .iah-card-text p:last-child{margin-bottom:0!important;}
+.iah-sec .iah-p ul{margin:6px 0 0;padding-left:1.15em;}
+.iah-sec .iah-p li{margin:0 0 .6em;}
+.iah-sec .iah-p p{margin:0 0 .9em;}
+.iah-sec .iah-p p:last-child{margin-bottom:0;}
+.iah-next .iah-next-lbl,.iah-next .iah-next-lbl p{color:#8DD6E8!important;font:700 15px/1.4 Montserrat,sans-serif!important;letter-spacing:.2em!important;text-transform:uppercase!important;margin:0!important;}
+.iah-next .elementor-heading-title{color:#FFFFFF!important;font:800 clamp(1.6rem,3vw,2.4rem)/1.2 Montserrat,sans-serif!important;}
+.iah-band .elementor-heading-title{color:#FFFFFF!important;font:800 clamp(1.5rem,2.6vw,2.2rem)/1.25 Montserrat,sans-serif!important;}
+.iah-band .iah-band-text,.iah-band .iah-band-text p{color:rgba(238,246,250,.82)!important;font:400 19px/1.65 Montserrat,sans-serif!important;margin:0!important;}
+.iah-h2-sub .elementor-heading-title{color:#09171F!important;font:800 clamp(1.5rem,2.6vw,2.2rem)/1.25 Montserrat,sans-serif!important;}/* --- fix 2 (widget aggiunto all'header dopo il primo) --- */
+.iah-sec .iah-band-text,.iah-sec .iah-band-text p{color:rgba(238,246,250,.82)!important;font:400 19px/1.65 Montserrat,sans-serif!important;margin:0 0 .9em!important;}
+.iah-sec .iah-band-text p:last-child{margin-bottom:0!important;}
+.e-con-inner:has(>.iah-scard){display:flex!important;flex-flow:row wrap!important;gap:24px!important;}
+.e-con-inner>.iah-scard{flex:0 0 calc(50% - 12px)!important;max-width:calc(50% - 12px)!important;width:auto!important;}
+.iah-sec .e-con.iah-scard{padding:36px 28px!important;}
+.iah-scard .elementor-heading-title{margin:0;}
+@media(max-width:767px){.e-con-inner>.iah-scard{flex:0 0 100%!important;max-width:100%!important;}.iah-sec .e-con.iah-scard{padding:26px 22px!important;}}
