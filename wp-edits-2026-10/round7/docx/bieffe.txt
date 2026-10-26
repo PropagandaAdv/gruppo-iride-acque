@@ -1,0 +1,14 @@
+BIEFFEin generale testi Piu grandi, grandi come Gruppo Iride
+  [IMG image2.png]
+ togli lecce dal 2010
+la frase diventa: La Società è attiva dal 1923 in Puglia, preservando un importante patrimonio di competenze tecniche nel settore civile e delle opere pubbliche.
+  [IMG image3.png]
+Qui correggi il testo come prima: 
+La Società fin dal1923 ha per scopo sociale principale l’attività di costruzioni sul mercato delle opere pubbliche.
+Ha realizzato numerosi interventi nel settore dell’Ingegneria Civile, tutti conclusi nei tempi assegnati, ed in particolare: acquedotti e fognature, impianti di depurazione, opere stradali e opere marittime.
+nelle SOA mancano le categorie che sono indicate dei documenti  [IMG image4.png]
+Questo:
+   [IMG image5.png]
+va inserito anche nella carte attestazioni prima delle associazioni (adeguandone lo stile)
+Togliere box soci fondatori   [IMG image6.png]
+Qui non so se si riesce a tornare alla soluzione precedente perchè non vogliono più quelle in corso, ma le principali,ipotizzano 5 ma devono ancora indicarmele, tenendola come sezione case study (denominata però REALIZZAZIONI)  [IMG image7.png]
