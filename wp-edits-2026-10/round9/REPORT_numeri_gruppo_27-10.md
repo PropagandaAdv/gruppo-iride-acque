@@ -25,7 +25,7 @@ Undo (72 h): etichette `5cfbe05d681e1c5e60f4993c611129e8`, `5e06b2f95bb93aef71ce
 
 ## Verifica (browser, live)
 Desktop 1440 e mobile 390: testo finale "Oltre 200 / 40 / 12 milioni", etichette corrette, nessun errore in console, zero occorrenze di "impianti costruiti".
-Tablet 768–820: "12 milioni" usciva dalla scheda. Corretto con una regola solo per 768–1024 px (font 44 px sui tre numeri), nel widget `86f943ea`. **Da riverificare dopo la rigenerazione della cache** (il live serviva ancora l'HTML precedente).
+Tablet 768–820: "12 milioni" usciva dalla scheda. Corretto con una regola solo per 768–1024 px (font 44 px sui tre numeri), nel widget `86f943ea`. **Verificato live dopo la rigenerazione della cache (27/10)** a 768, 820 e 1024 px: tutto dentro le schede, nessun errore in console (a 768 px "12 milioni" eccede di 7 px il box ma resta dentro la scheda). Screenshot `numeri_dopo_tablet_{768,820}_corretto.png`.
 Screenshot: `screens/numeri_dopo_{desktop,tablet,mobile}.png` (il tablet mostra il difetto prima della correzione). Lo "prima" è lo screenshot nella mail del cliente.
 
 ## Da confermare col cliente
