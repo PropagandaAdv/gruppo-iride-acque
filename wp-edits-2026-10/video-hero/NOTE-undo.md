@@ -1,0 +1,18 @@
+# Video YouTube hero, footer, card tecnologie (29/10/2026)
+Nessun backup completo possibile dal connettore: solo token di annullamento per singola operazione (72h, scadono ~01/11).
+
+## Footer (template 42): b462c9e76b58cf8ced26024768d35bd9
+## Home (12): contenitore video 17af654bbf87fa91415969e417aa24bd; CSS 75cec4e5 baa614b8...; guardia MP4 0b1dc03e778cda07bc68c8ac02af3b1d; CSS contenitore 9a727904130150120b685c67c7e7a626
+## Video container (id) / CSS widget undo token
+- 292: 978cf0d5 ebfc72d62e63d219f8a9ccb9ef8caba4 / 508e705113bde323a4e2d8949787b5d2
+- 293: 38e8d2b0 e9a31ce3aba86443239c64d7e51f3042 / a875f177edb750a2665d6145442f51e6
+- 294: 77450eaf c449235658fece286a7a5045bc114e6b / 5253794ca092d034fcbba3708a6446c6
+- 295: 7ebd74a4 4bf849f513783bd15a89d8965636578b / 3dbf0c5cbf770981fff4052fa678b4b1
+- 296: efc8a953 1e8c3ee2613e292e012e478073c8c335 / c3f4c4b82dd22f6e87d976fa4b66b017
+- 368: 5f076bc6 12d1fa830b430a1ecfacb5f7d75d63d8 / 79f36d814f0d336237800e3f161ac743
+- 574: 4923463a 06940f0f3e5e6511f1e32924d77b34ca / 04487f03b98783acd9abb676972f60d2
+- 579: 56873f38 466d067e921332f2f267ca6b1f4846e6 / 9fa973c26ba141d85efde55fd2dcf4e0
+- 288: e945dfe8 019b00ca1502824cd97204ffaa0862a0 / e6d096be8dad72508c8d80e450d66678 ; card tecnologie c29067417ab140f4e3041efabd67654e
+- 289: 9fc9d8b1 a778ba1154704fffcc7b825b08ac1f29 / 5c3cd3d99c2f7a75792ec73429b7d801 ; card tecnologie 6f2bc7ecc72d35d89aac5824b1f42b49
+- 55 (Il Gruppo): 194b64db af63c2a81242b905a965adf7e81951f5 / 279960d7 4e9ad71e8afb38aab62b936ee8b4d002
+- 66 (Applicazioni e Servizi): d849fb77 c8344741d4fe1260fe9bd1d3a8dd2212 / 633bf6bfc148bea9444df8b6fafc31b7
