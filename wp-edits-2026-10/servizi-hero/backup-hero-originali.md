@@ -32,3 +32,9 @@ Undo (72h, ordine inverso): 368 meta `e6cb22afd60c59655b87ebf3afe208c4`; 574 met
 579 meta `ac14847d98cdfa12fb2945113ecc1eaa`; 289 meta `f6aa7aec3fc8c18099d6232fc223bb8a`; 288 meta `2bb828c9d56b16c6494096e79f1761a7`.
 Media: 44 WebP caricati (ID 673-716) da PNG ID 629-672 (PNG originali del cliente lasciati in libreria).
 Nota: Elementor tiene una cache del render (`_elementor_element_cache`) non cancellabile dal connettore; dopo ogni scrittura può servire la versione vecchia fino alla scadenza.
+
+## Hero "solo titolo" su Settori, Primarie, Reflue (2026-10-29)
+Pagine: 296 Settori, 288 Trattamento acque primarie e di processo, 289 Trattamento acque reflue.
+I paragrafi tolti dall'hero sono nella sezione `#intro-servizio` (sfondo #EEF6FA) subito sotto, testo verbatim.
+Undo meta (72h): 296 `ef064e6ceabfcc2a3b1c7a1a9f049b0d`; 288 `55833b89ca79aef2f4c9ce6439e2250b`; 289 `ff387964d32642057ec842655a735fb4`.
+Nota: il salvataggio ha tolto `place-items:center` dagli stili inline delle icone di Settori; ripristinato con uno <style> dedicato.
