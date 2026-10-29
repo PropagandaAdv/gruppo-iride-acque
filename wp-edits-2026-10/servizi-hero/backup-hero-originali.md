@@ -25,3 +25,10 @@ Gli hero originali sono recuperabili anche da `_elementor_data` (meta) via undo.
 Nota tecnica: `wp_update_post_meta` toglie `<script>`/`<style>` dai widget HTML; dopo ogni scrittura i widget
 di video e stile sono stati reinseriti con `elementor_add_widget` (che li conserva). Non riscrivere
 `_elementor_data` con quello strumento senza rifare lo stesso passaggio.
+
+## Parte 2 — foto (2026-10-29)
+Pagine toccate: 368 Industriale, 574 Civile, 579 Multi-utility (righe sotto-settori), 289 Reflue e 288 Primarie (box tecnologie).
+Undo (72h, ordine inverso): 368 meta `e6cb22afd60c59655b87ebf3afe208c4`; 574 meta `ea287058583835f77a72d7536a558252`;
+579 meta `ac14847d98cdfa12fb2945113ecc1eaa`; 289 meta `f6aa7aec3fc8c18099d6232fc223bb8a`; 288 meta `2bb828c9d56b16c6494096e79f1761a7`.
+Media: 44 WebP caricati (ID 673-716) da PNG ID 629-672 (PNG originali del cliente lasciati in libreria).
+Nota: Elementor tiene una cache del render (`_elementor_element_cache`) non cancellabile dal connettore; dopo ogni scrittura può servire la versione vecchia fino alla scadenza.
