@@ -32,3 +32,7 @@ Video News (131): contenitore 2c6c8469579b06b05afa33cb81655ea7; stile+script ecc
 Video Contatti (78): contenitore ea97ec8c3447d4ad9c8e15bd80f72acd; stile+script d8b5901f6801167bad74a1e7d082c7c5
 Societa altezza mobile: b8f1d8bf14f3696d145e3eefe5b536cb
 Settori hero solo titolo (Industriale/Civile/Multi-utility): intro 41a3962fe2de1c9fd627eba18c3b1e6a, bca4faf6b7cdf0005f220c4b63209c97, 33dd99e811717aa9e10fda3a59e88d67
+
+## 02/11 - hero Applicazioni e Servizi uguale a Primarie + play/pausa (bezel) nascosto
+Hero 66 (CSS): 0b1151bf 84a2e184eb9b4cd2dddd879b5baecc1b
+Anti-bezel (widget / token): 12 824abcf1 7cfa19539d7ca520d69c33bb00a83f08; 55 a0360257 (token non registrato: risposta 502, scrittura avvenuta); 64 e351771b cf3a11ed6eafd512128474ae1d5b549e; 66 55e99116 5777e7ff799609e8b5629ad2755847fe; 288 1b3a9039 9bca5f1dee462783e48fa67164e18d92; 289 bb891964 3306d7c8fac1b1dba3f04f3032b233e2; 292 8ce50d35 0f3b0313a17e20855d93962889269456; 293 4e3c21e0 8549ae6e5e055895dbf9408f90d1639e; 294 86775fb9 13f8a62a5035649e371465c83b530bfe; 295 5e8f2d4c eed09f13b33fe7e7ecfc616fb16da4ee; 296 69d19e62 9ecd1eb8d2f030b1b671d84f8471643a; 368 4f222ad0 e8cbb0770bea45bf30b41766f2afc9ae; 574 24e0c430 19500afa2ee4aed6144cd81d85d59501; 579 fb3f5150 fef040de491f0ead3219c88a1b0e5186; 131 a7b22f07 a74571f3b912324c95b268ce5f340c7d; 78 f091c129 ca6490770b493f66fbfd50b5f716b9d3
