@@ -1,0 +1,18 @@
+<style>
+/* Nessun tasto play: finche' il video non parte si vede solo il fondo blu notte */
+.iah-vid-bg{background:var(--e-global-color-secondary,#09171F)!important;}
+.iah-vid-bg .elementor-background-video-embed,.iah-vid-bg iframe{pointer-events:none!important;}
+.iah-vid-bg .elementor-background-video-embed{opacity:0!important;transition:opacity .4s ease;scale:1.15;}
+.iah-vid-bg.iah-vid-on .elementor-background-video-embed{opacity:1!important;}
+</style>
+<script>
+(function(){
+  function hook(box){if(box._iahh)return;var f=box.querySelector('iframe');if(!f)return;box._iahh=1;
+    function listen(){try{f.contentWindow.postMessage(JSON.stringify({event:'listening',id:1,channel:'widget'}),'*');f.contentWindow.postMessage(JSON.stringify({event:'command',func:'addEventListener',args:['onStateChange'],id:1,channel:'widget'}),'*');}catch(e){}}
+    f.addEventListener('load',listen);var n=0,t=setInterval(function(){listen();if(box.classList.contains('iah-vid-on')||++n>60)clearInterval(t);},500);
+    window.addEventListener('message',function(e){if(e.source!==f.contentWindow)return;var d=e.data;if(typeof d==='string'){try{d=JSON.parse(d);}catch(x){return;}}if(!d)return;var st=null;if(d.event==='onStateChange')st=d.info;else if(d.event==='infoDelivery'&&d.info&&typeof d.info.playerState!=='undefined')st=d.info.playerState;if(st===1)box.classList.add('iah-vid-on');});
+  }
+  function scan(){var b=document.querySelectorAll('.iah-vid-bg');for(var i=0;i<b.length;i++)hook(b[i]);}
+  scan();new MutationObserver(scan).observe(document.documentElement,{childList:true,subtree:true});
+})();
+</script>
