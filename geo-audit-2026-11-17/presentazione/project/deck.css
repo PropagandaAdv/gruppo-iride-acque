@@ -1,0 +1,60 @@
+/* Stile Propaganda Adv: blu elettrico #233DFF, nero #151515, bianco; titoli Poppins, testi Inter Tight.
+   Firma grafica: parola/frase evidenziata su blocco blu pieno con testo bianco. */
+body { font-family: 'Inter Tight', Arial, sans-serif; color: #151515; }
+section { counter-increment: page; padding: 128px 128px 160px; background: #FFFFFF; color: #151515; font-family: 'Inter Tight', Arial, sans-serif; }
+section.tint { background: #F2F4FF; }
+section.dark { background: #151515; color: #FFFFFF; }
+section.blue { background: #233DFF; color: #FFFFFF; }
+section.cover { padding: 128px; }
+
+h1, h2, h3 { font-family: 'Poppins', Arial, sans-serif; margin: 0; }
+h1 { font-size: 96px; font-weight: 800; line-height: 1.08; }
+h2 { font-size: 72px; font-weight: 700; line-height: 1.1; }
+h3 { font-size: 36px; font-weight: 600; line-height: 1.25; }
+p { margin: 0; font-size: 32px; line-height: 1.4; }
+
+.col { display: flex; flex-direction: column; }
+.full { height: 824px; justify-content: space-between; }
+.head { display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; }
+.eyebrow { font-size: 28px; font-weight: 700; letter-spacing: 3px; color: #233DFF; }
+.dark .eyebrow { color: #FFFFFF; }
+.blue .eyebrow { color: #FFFFFF; }
+.hl { align-self: flex-start; background: #233DFF; color: #FFFFFF; font-family: 'Poppins', Arial, sans-serif; font-weight: 700; font-size: 72px; line-height: 1.1; padding: 8px 28px; }
+.dark .hl { background: #233DFF; }
+.muted { color: #5A5757; }
+.dark .muted { color: #D1CACA; }
+
+.row { display: flex; flex-direction: row; gap: 40px; }
+.card { background: #FFFFFF; border: 2px solid #233DFF; padding: 36px; display: flex; flex-direction: column; gap: 16px; flex: 1; }
+.tint .card { background: #FFFFFF; }
+.dark .card { background: #1F1F1F; border: 2px solid #233DFF; }
+.card p { font-size: 28px; line-height: 1.4; }
+.big { font-family: 'Poppins', Arial, sans-serif; font-weight: 800; font-size: 120px; line-height: 1; color: #233DFF; }
+.bignum { font-family: 'Poppins', Arial, sans-serif; font-weight: 800; font-size: 160px; line-height: 1; color: #FFFFFF; }
+.num { font-family: 'Poppins', Arial, sans-serif; font-weight: 800; font-size: 72px; line-height: 1; color: #233DFF; }
+.tag { align-self: flex-start; background: #233DFF; color: #FFFFFF; font-size: 24px; font-weight: 700; letter-spacing: 2px; padding: 6px 18px; }
+.tag.alt { background: #151515; }
+.dark .tag.alt { background: #FFFFFF; color: #151515; }
+.lab { font-size: 28px; font-weight: 600; }
+.note { background: #151515; color: #FFFFFF; padding: 24px 36px; font-size: 28px; line-height: 1.4; }
+.note b { color: #FFFFFF; }
+
+.panel { background: #233DFF; color: #FFFFFF; padding: 48px; display: flex; flex-direction: column; gap: 16px; width: 640px; justify-content: center; }
+.panel p { font-size: 32px; color: #FFFFFF; }
+.stack { display: flex; flex-direction: column; gap: 24px; flex: 1; }
+.prow { display: flex; flex-direction: row; align-items: center; justify-content: space-between; border-bottom: 2px solid #233DFF; padding: 12px 0; }
+.prow p { font-size: 36px; }
+.prow .v { font-family: 'Poppins', Arial, sans-serif; font-weight: 800; font-size: 64px; color: #233DFF; }
+.prow .r { font-size: 28px; color: #5A5757; }
+
+.foot { position: absolute; left: 128px; width: 1664px; bottom: 64px; display: flex; flex-direction: row; justify-content: space-between; }
+.foot p { font-size: 24px; color: #5A5757; }
+.dark .foot p, .blue .foot p { color: #D1CACA; }
+.blue .foot p { color: #FFFFFF; }
+.pg::after { content: counter(page); }
+
+table { font-size: 28px; }
+
+.step { display: flex; flex-direction: column; gap: 16px; flex: 1; border-top: 6px solid #FFFFFF; padding-top: 24px; }
+.step h3 { font-size: 40px; }
+.step p { font-size: 28px; color: #FFFFFF; }
